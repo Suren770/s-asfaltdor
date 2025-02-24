@@ -1,0 +1,137 @@
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+}
+ 
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.img1{
+    width: 95%;
+    height: 600px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bf830b;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
+    display: grid;
+}
+.cont{
+    background-color: #ba8f04;
+}
+.pos {
+    
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+    margin-left: 250px;
+    
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Две колонки */
+    gap: 10px;
+    
+}
+
+.pos img {
+    width: 70%; /* Картинка растягивается */
+    border: 2px rgb(0, 0, 0) solid;
+    grid-row: span 2; /* Занимает две колонки */
+    max-width: 100%;
+    height: auto;
+}
+
+.pos p {
+    background: rgb(226, 182, 34);
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.pos ul {
+    background: lightgray;
+    padding: 10px;
+}
+
+.pos li {
+    list-style: none;
+}
+
+
+.id{
+
+    margin-top: 60px;
+    
+ 
+    font-size: 20px;
+    margin-right: 10px;
+}
+section img {
+    width: 95%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #bf830b;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.kont{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 400px;
+    height: 400px;
+   
+}
+img:hover{
+    box-shadow: 2px 3px 4px orange;
+}
